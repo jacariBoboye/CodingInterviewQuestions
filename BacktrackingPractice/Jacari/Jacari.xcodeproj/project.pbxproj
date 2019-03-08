@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA5943D216C0AAC001347DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5943C216C0AAC001347DC /* AppDelegate.swift */; };
+		BFA5943F216C0AAC001347DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5943E216C0AAC001347DC /* ViewController.swift */; };
+		BFA59442216C0AAC001347DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA59440216C0AAC001347DC /* Main.storyboard */; };
+		BFA59444216C0AB3001347DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA59443216C0AB3001347DC /* Assets.xcassets */; };
+		BFA59447216C0AB3001347DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA59445216C0AB3001347DC /* LaunchScreen.storyboard */; };
+		BFA59452216C0AB4001347DC /* JacariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA59451216C0AB4001347DC /* JacariTests.swift */; };
+		BFA5945D216C0AB4001347DC /* JacariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5945C216C0AB4001347DC /* JacariUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA5944E216C0AB4001347DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA59431216C0AAB001347DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA59438216C0AAC001347DC;
+			remoteInfo = Jacari;
+		};
+		BFA59459216C0AB4001347DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA59431216C0AAB001347DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA59438216C0AAC001347DC;
+			remoteInfo = Jacari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA59439216C0AAC001347DC /* Jacari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jacari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA5943C216C0AAC001347DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA5943E216C0AAC001347DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA59441216C0AAC001347DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA59443216C0AB3001347DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA59446216C0AB3001347DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA59448216C0AB3001347DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA5944D216C0AB4001347DC /* JacariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JacariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA59451216C0AB4001347DC /* JacariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacariTests.swift; sourceTree = "<group>"; };
+		BFA59453216C0AB4001347DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA59458216C0AB4001347DC /* JacariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JacariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA5945C216C0AB4001347DC /* JacariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JacariUITests.swift; sourceTree = "<group>"; };
+		BFA5945E216C0AB4001347DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA59436216C0AAC001347DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA5944A216C0AB4001347DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA59455216C0AB4001347DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA59430216C0AAB001347DC = {
+			isa = PBXGroup;
+			children = (
+				BFA5943B216C0AAC001347DC /* Jacari */,
+				BFA59450216C0AB4001347DC /* JacariTests */,
+				BFA5945B216C0AB4001347DC /* JacariUITests */,
+				BFA5943A216C0AAC001347DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA5943A216C0AAC001347DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA59439216C0AAC001347DC /* Jacari.app */,
+				BFA5944D216C0AB4001347DC /* JacariTests.xctest */,
+				BFA59458216C0AB4001347DC /* JacariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA5943B216C0AAC001347DC /* Jacari */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5943C216C0AAC001347DC /* AppDelegate.swift */,
+				BFA5943E216C0AAC001347DC /* ViewController.swift */,
+				BFA59440216C0AAC001347DC /* Main.storyboard */,
+				BFA59443216C0AB3001347DC /* Assets.xcassets */,
+				BFA59445216C0AB3001347DC /* LaunchScreen.storyboard */,
+				BFA59448216C0AB3001347DC /* Info.plist */,
+			);
+			path = Jacari;
+			sourceTree = "<group>";
+		};
+		BFA59450216C0AB4001347DC /* JacariTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA59451216C0AB4001347DC /* JacariTests.swift */,
+				BFA59453216C0AB4001347DC /* Info.plist */,
+			);
+			path = JacariTests;
+			sourceTree = "<group>";
+		};
+		BFA5945B216C0AB4001347DC /* JacariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5945C216C0AB4001347DC /* JacariUITests.swift */,
+				BFA5945E216C0AB4001347DC /* Info.plist */,
+			);
+			path = JacariUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA59438216C0AAC001347DC /* Jacari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA59461216C0AB4001347DC /* Build configuration list for PBXNativeTarget "Jacari" */;
+			buildPhases = (
+				BFA59435216C0AAC001347DC /* Sources */,
+				BFA59436216C0AAC001347DC /* Frameworks */,
+				BFA59437216C0AAC001347DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jacari;
+			productName = Jacari;
+			productReference = BFA59439216C0AAC001347DC /* Jacari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA5944C216C0AB4001347DC /* JacariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA59464216C0AB4001347DC /* Build configuration list for PBXNativeTarget "JacariTests" */;
+			buildPhases = (
+				BFA59449216C0AB4001347DC /* Sources */,
+				BFA5944A216C0AB4001347DC /* Frameworks */,
+				BFA5944B216C0AB4001347DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA5944F216C0AB4001347DC /* PBXTargetDependency */,
+			);
+			name = JacariTests;
+			productName = JacariTests;
+			productReference = BFA5944D216C0AB4001347DC /* JacariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA59457216C0AB4001347DC /* JacariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA59467216C0AB4001347DC /* Build configuration list for PBXNativeTarget "JacariUITests" */;
+			buildPhases = (
+				BFA59454216C0AB4001347DC /* Sources */,
+				BFA59455216C0AB4001347DC /* Frameworks */,
+				BFA59456216C0AB4001347DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA5945A216C0AB4001347DC /* PBXTargetDependency */,
+			);
+			name = JacariUITests;
+			productName = JacariUITests;
+			productReference = BFA59458216C0AB4001347DC /* JacariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA59431216C0AAB001347DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jacari Boboye";
+				TargetAttributes = {
+					BFA59438216C0AAC001347DC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BFA5944C216C0AB4001347DC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BFA59438216C0AAC001347DC;
+					};
+					BFA59457216C0AB4001347DC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BFA59438216C0AAC001347DC;
+					};
+				};
+			};
+			buildConfigurationList = BFA59434216C0AAC001347DC /* Build configuration list for PBXProject "Jacari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA59430216C0AAB001347DC;
+			productRefGroup = BFA5943A216C0AAC001347DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA59438216C0AAC001347DC /* Jacari */,
+				BFA5944C216C0AB4001347DC /* JacariTests */,
+				BFA59457216C0AB4001347DC /* JacariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA59437216C0AAC001347DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA59447216C0AB3001347DC /* LaunchScreen.storyboard in Resources */,
+				BFA59444216C0AB3001347DC /* Assets.xcassets in Resources */,
+				BFA59442216C0AAC001347DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA5944B216C0AB4001347DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA59456216C0AB4001347DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA59435216C0AAC001347DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA5943F216C0AAC001347DC /* ViewController.swift in Sources */,
+				BFA5943D216C0AAC001347DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA59449216C0AB4001347DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA59452216C0AB4001347DC /* JacariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA59454216C0AB4001347DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA5945D216C0AB4001347DC /* JacariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA5944F216C0AB4001347DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA59438216C0AAC001347DC /* Jacari */;
+			targetProxy = BFA5944E216C0AB4001347DC /* PBXContainerItemProxy */;
+		};
+		BFA5945A216C0AB4001347DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA59438216C0AAC001347DC /* Jacari */;
+			targetProxy = BFA59459216C0AB4001347DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA59440216C0AAC001347DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA59441216C0AAC001347DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA59445216C0AB3001347DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA59446216C0AB3001347DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA5945F216C0AB4001347DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA59460216C0AB4001347DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA59462216C0AB4001347DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jacari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.Jacari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA59463216C0AB4001347DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jacari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.Jacari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA59465216C0AB4001347DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JacariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.JacariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jacari.app/Jacari";
+			};
+			name = Debug;
+		};
+		BFA59466216C0AB4001347DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JacariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.JacariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jacari.app/Jacari";
+			};
+			name = Release;
+		};
+		BFA59468216C0AB4001347DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JacariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.JacariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jacari;
+			};
+			name = Debug;
+		};
+		BFA59469216C0AB4001347DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JacariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JB.Nike.JacariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jacari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA59434216C0AAC001347DC /* Build configuration list for PBXProject "Jacari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA5945F216C0AB4001347DC /* Debug */,
+				BFA59460216C0AB4001347DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA59461216C0AB4001347DC /* Build configuration list for PBXNativeTarget "Jacari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA59462216C0AB4001347DC /* Debug */,
+				BFA59463216C0AB4001347DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA59464216C0AB4001347DC /* Build configuration list for PBXNativeTarget "JacariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA59465216C0AB4001347DC /* Debug */,
+				BFA59466216C0AB4001347DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA59467216C0AB4001347DC /* Build configuration list for PBXNativeTarget "JacariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA59468216C0AB4001347DC /* Debug */,
+				BFA59469216C0AB4001347DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA59431216C0AAB001347DC /* Project object */;
+}
