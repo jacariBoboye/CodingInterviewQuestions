@@ -1,0 +1,15 @@
+/*
+
+Island Problem: 
+Create an algorithm that takes in a 2d array. If you find a collective/grouping of "1"'s within the
+matrix this area is considered a covfntinent. 
+
+var worldMap = [
+    [0, 1, 0, 0],   
+    [1, 1, 0, 1],
+    [0, 0, 0, 0],
+    [0, 1, 1, 0]
+]
+
+Count the number of continents within the worldmap
+*/

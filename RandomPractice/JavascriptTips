@@ -1,0 +1,26 @@
+/*
+Javascript tips and tricks
+*/
+
+/*
+
+1. , operator 
+	Evaluates the expression on the left of the comma and then returns the object on the right 
+LHE && RHE
+1. Always evaluate LHE
+2. If LHE is true, evaluate RHE
+ 
+LHE || RHE
+1. Always evaluate LHE
+2. If LHE is false, evaluate RHE
+ 
+LHE, RHE
+1. Always evaluate LHE
+2. Always evaluate RHE
+
+2. Associative arrays are a bad thing
+
+
+*/
+
+
